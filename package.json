@@ -1,0 +1,39 @@
+{
+  "name": "reselect-multi-memo",
+  "version": "0.0.1",
+  "description": "Add a custom memo size to your reselect selectors",
+  "main": "index.dist.js",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "reselect": "^2.5.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-preset-es2017": "^1.4.0",
+    "babel-register": "^6.9.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "babel index.js > index.dist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterbsmith2/reselect-multi-memo.git"
+  },
+  "keywords": [
+    "reselect",
+    "redux",
+    "meomize",
+    "cache",
+    "fp",
+    "react",
+    "memoize"
+  ],
+  "author": "Ryan Gaus and Peter B Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterbsmith2/reselect-multi-memo/issues"
+  },
+  "homepage": "https://github.com/peterbsmith2/reselect-multi-memo#readme"
+}
